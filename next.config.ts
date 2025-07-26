@@ -8,8 +8,6 @@ const nextConfig: NextConfig = {
     images: {
         unoptimized: true,
     },
-    assetPrefix: isProd ? '/Portfolio-Website/' : '',
-    basePath: isProd ? '/Portfolio-Website' : '',
     eslint: {
         // Warning: This allows production builds to successfully complete even if
         // your project has ESLint errors.
