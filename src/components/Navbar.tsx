@@ -2,7 +2,7 @@ import {AtSign, FileInput} from 'lucide-react';
 
 const Navbar = () => {
     return(
-        <div className="bg-black text-white px-5 lg:px-20 py-4 flex justify-between font-mono">
+        <div className="bg-black text-white px-5 lg:px-20 py-4 flex justify-between font-mono fixed z-999 right-0 left-0">
             <div>
                 <p className="lg:text-2xl">Sanket Vyawahare</p>
             </div>
