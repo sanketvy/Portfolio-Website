@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ArrowLeft, Calendar, Clock, User, Share2, Bookmark, Github, ExternalLink } from "lucide-react";
+import { ArrowLeft, Calendar, Clock, User, Share2, Bookmark } from "lucide-react";
 
 const BlogPostDetail = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -42,7 +42,7 @@ const BlogPostDetail = () => {
         }
     };
 
-    const formatDate = (dateString: String) => {
+    const formatDate = (dateString: string) => {
         // @ts-ignore
         const date = new Date(dateString);
         return date.toLocaleDateString('en-US', {

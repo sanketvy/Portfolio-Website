@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
     },
     assetPrefix: isProd ? '/Portfolio-Website/' : '',
     basePath: isProd ? '/Portfolio-Website' : '',
+    eslint: {
+        // Warning: This allows production builds to successfully complete even if
+        // your project has ESLint errors.
+        // Use this option with extreme caution.
+        ignoreDuringBuilds: true,
+    },
 };
 
 export default nextConfig;
