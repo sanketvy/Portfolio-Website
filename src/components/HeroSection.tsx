@@ -95,7 +95,7 @@ const HeroSection = () => {
 
                     {/* Call to Action (CTA): Compelling and inviting */}
                     <div className={`transition-all duration-1000 delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-                        <button className="group relative inline-flex items-center gap-3 text-gray-900 text-xl font-semibold tracking-wide
+                        <a href="https://drive.google.com/file/d/1gG7kEdB1_0Jdv3LSwKbzLANJQOL7Nbdk/view?usp=drive_link" target="_blank" className="group relative inline-flex items-center gap-3 text-gray-900 text-xl font-semibold tracking-wide
                                            px-8 py-3 rounded-full border-2 border-gray-900
                                            hover:bg-gray-900 hover:text-white transition-all duration-300 ease-in-out">
                             <span className="relative">
@@ -105,7 +105,7 @@ const HeroSection = () => {
                             </span>
                             {/* Arrow icon with subtle animation */}
                             <ArrowDown size={22} className="rotate-[-90deg] group-hover:translate-x-1 transition-transform duration-300" />
-                        </button>
+                        </a>
                     </div>
                 </div>
 

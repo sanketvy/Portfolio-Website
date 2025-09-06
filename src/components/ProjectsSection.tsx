@@ -43,25 +43,29 @@ const ProjectsSection = () => {
         {
             id: "aetheredge",
             title: "AetherEdge",
-            subtitle: "Cloud Infrastructure Orchestration",
-            description: "Enterprise-grade AWS infrastructure automation platform with intelligent resource provisioning, cost optimization, and multi-environment deployment strategies.",
-            technologies: ["AWS", "Terraform", "Docker", "Kubernetes", "Java", "Spring Boot"],
-            status: "Production Ready",
-            impact: "80% Faster Deployments"
+            subtitle: "Portfolio Management & Algo Trading Platform",
+            description: "Ready to use, algo trading and investment management platform for retail traders, which powers their decision making as well as trading habits.",
+            technologies: ["Java", "Spring Boot", "Spring Security", "Microservices", "ReactJS", "Kafka", "Redis", "PostgresSQL"],
+            status: "Under Testing",
         },
         {
             id: "eventiq",
             title: "EventIQ",
-            subtitle: "Intelligent Event Management",
+            subtitle: "Intelligent User Analytics Tracking & Management",
             description: "Scalable event processing and analytics platform built with microservices architecture, featuring real-time data streaming and advanced monitoring capabilities.",
-            technologies: ["Java", "Spring Boot", "Kafka", "Redis", "PostgreSQL", "React"],
+            technologies: ["Java", "Spring Boot", "Kafka", "Redis", "PostgresSQL", "React", "Cassandra"],
             status: "Active Development",
-            impact: "30+ Microservices"
         }
     ];
-
-    const handleProjectClick = (projectId: String) => {
-        window.location.href = `/project/${projectId}`;
+    const handleProjectClick = (projectId: string) => {
+        const urls: { [key in "aetheredge" | "eventiq"]: string } = {
+            aetheredge: "https://github.com/sanketvy/AetherEdge",
+            eventiq: "https://github.com/sanketvy/EventIQ"
+        };
+        const url = urls[projectId as "aetheredge" | "eventiq"];
+        if (url) {
+            window.open(url, "_blank");
+        }
     };
 
     return (

@@ -8,10 +8,10 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:flex text-sm font-light">
-                <button className="bg-white mr-5 rounded-xl text-black px-4 py-1 cursor-pointer">
+                <a href="https://drive.google.com/file/d/1gG7kEdB1_0Jdv3LSwKbzLANJQOL7Nbdk/view?usp=drive_link" target="_blank" className="bg-white mr-5 rounded-xl text-black px-4 py-1 cursor-pointer">
                     <FileInput className="inline mr-1" size={15} />
                     Resume
-                </button>
+                </a>
                 <button className="border border-white rounded-xl px-4 py-1 cursor-pointer">
                     <AtSign className="inline mr-1" size={15} />
                     Contact
