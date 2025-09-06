@@ -40,19 +40,19 @@ const Footer: React.FC = () => {
     const socialLinks: SocialLink[] = [
         {
             name: 'github',
-            url: 'https://github.com/yourusername',
+            url: 'https://github.com/sanketvy',
             icon: <Github size={24} />,
             label: 'GitHub Profile'
         },
         {
             name: 'linkedin',
-            url: 'https://linkedin.com/in/yourprofile',
+            url: 'https://linkedin.com/in/sanketvy',
             icon: <Linkedin size={24} />,
             label: 'LinkedIn Profile'
         },
         {
             name: 'email',
-            url: 'mailto:your.email@example.com',
+            url: 'mailto:srvyawahare18@gmail.com',
             icon: <Mail size={24} />,
             label: 'Send Email'
         }
@@ -61,15 +61,15 @@ const Footer: React.FC = () => {
     const contactInfo: ContactInfo[] = [
         {
             type: 'Email',
-            value: 'your.email@example.com',
+            value: 'srvyawahare18@gmail.com',
             icon: <Mail size={18} />,
-            href: 'mailto:your.email@example.com'
+            href: 'mailto:srvyawahare18@gmail.com'
         },
         {
             type: 'Phone',
-            value: '+91 98765 43210',
+            value: '+91 95116 46296',
             icon: <Phone size={18} />,
-            href: 'tel:+919876543210'
+            href: 'tel:+919522646296'
         },
         {
             type: 'Location',
@@ -190,7 +190,7 @@ const Footer: React.FC = () => {
                     {/* Bottom Section */}
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                         <div className="text-gray-400 text-sm">
-                            <p>© {new Date().getFullYear()} Software Developer. All rights reserved.</p>
+                            <p>© {new Date().getFullYear()} Sanket Vyawahare. All rights reserved.</p>
                         </div>
 
                         <div className="flex flex-col md:flex-row gap-4 text-sm">
