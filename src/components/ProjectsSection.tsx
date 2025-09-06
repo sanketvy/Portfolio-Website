@@ -132,9 +132,7 @@ const ProjectsSection = () => {
                                                 <span className="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">
                                                     {project.status}
                                                 </span>
-                                                <span className="px-3 py-1 bg-gray-900 text-white text-sm font-medium rounded-full">
-                                                    {project.impact}
-                                                </span>
+
                                             </div>
                                         </div>
 
